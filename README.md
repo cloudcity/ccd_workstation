@@ -5,7 +5,7 @@ This is primarily meant to be included as a git submodule next to your other coo
 If you run it on it's own, put it in an isolated folder (I made the soloistrc check ../ for cookbooks) next to pivotal_workstation
 
 * gem install bundler
-* bundle (I checked in a .bundle/config with binstubs, so if ./bin is in your path...)
+* bundle (I checked in a .bundle/config with binstubs, so if ./bin is in your path, which it will be after the first run)
 * soloist
 
 If you check the docs for soloist you will see that the [soloistrc](https://github.com/timocratic/ccd_workstation/blob/master/soloistrc) file determines which recipes get run. ;)

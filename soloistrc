@@ -2,6 +2,7 @@ cookbook_paths:
 - ../
 recipes:
 - pivotal_workstation::ack
+- pivotal_workstation::bash_path_order
 - pivotal_workstation::bash_profile
 - pivotal_workstation::bash_profile-better_history
 - pivotal_workstation::bash_profile-ps1
@@ -14,3 +15,4 @@ recipes:
 - pivotal_workstation::locate_on
 - pivotal_workstation::rvm
 - ccd_workstation::global_rvmrc
+- ccd_workstation::bash_current_bin_in_path
