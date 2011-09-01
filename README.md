@@ -1,0 +1,3 @@
+These are some chef recipes http://www.cloudcitydevelopment.com has found useful to supplement https://github.com/pivotal/pivotal_workstation for use with https://github.com/mkocher/soloist.
+
+This is primarily meant to be included as a git submodule with your next to other cookbooks. For development and internal use it's set-up so if it lives in a sibling folder of pivotal_workstation (and possibly later opscode cookbooks if I need any) then it can be run on it's own via soloist
