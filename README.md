@@ -7,3 +7,5 @@ If you run it on it's own, put it in an isolated folder (I made the soloistrc ch
 * gem install bundler
 * bundle (I checked in a .bundle/config with binstubs, so if ./bin is in your path...)
 * soloist
+
+If you check the docs for soloist you will see that the [soloistrc](https://github.com/timocratic/ccd_workstation/blob/master/soloistrc) file determines which recipes get run. ;)
