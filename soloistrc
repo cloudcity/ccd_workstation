@@ -14,5 +14,9 @@ recipes:
 - pivotal_workstation::mysql
 - pivotal_workstation::locate_on
 - pivotal_workstation::rvm
+- pivotal_workstation::textmate
+- pivotal_workstation::textmate_plugins
 - ccd_workstation::global_rvmrc
 - ccd_workstation::bash_current_bin_in_path
+- ccd_workstation::textmate_fullscreen
+- ccd_workstation::textmate_preferences
