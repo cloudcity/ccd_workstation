@@ -4,6 +4,8 @@ This is primarily meant to be included as a git submodule next to your other coo
 
 If you run it on it's own, put it in an isolated folder (I made the soloistrc check ../ for cookbooks) next to pivotal_workstation
 
+These presume you have xcode installed, but you could probably use http://github.com/kennethreitz/osx-gcc-installer
+
 * gem install bundler
 * bundle (I checked in a .bundle/config with binstubs, so if ./bin is in your path, which it will be after the first run)
 * soloist
