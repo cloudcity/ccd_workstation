@@ -1,4 +1,4 @@
-These are some chef recipes [Cloud City Deveopment](http://www.cloudcitydevelopment.com) has found useful to supplement [pivotal_workstation](https://github.com/pivotal/pivotal_workstation) for use with [soloist](https://github.com/mkocher/soloist).
+These are some chef recipes [Cloud City Development](http://www.cloudcitydevelopment.com) has found useful to supplement [pivotal_workstation](https://github.com/pivotal/pivotal_workstation) for use with [soloist](https://github.com/mkocher/soloist).
 
 This is primarily meant to be included as a git submodule next to your other cookbooks. For development and internal use it's set-up so if it lives in a sibling folder of pivotal_workstation (and possibly later opscode cookbooks if I need any) then it can be run on it's own via soloist.
 
@@ -11,3 +11,8 @@ These presume you have xcode installed, but you could probably use http://github
 * soloist
 
 If you check the docs for soloist you will see that the [soloistrc](https://github.com/timocratic/ccd_workstation/blob/master/soloistrc) file determines which recipes get run. ;)
+
+Overriding attributes (like the path to the workspace directory)
+------------------
+
+I've .gitignore'd anything that ends in _override.rb in the attributes folder, so you can add files for override attributes.
