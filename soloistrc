@@ -21,7 +21,6 @@ recipes:
 - pivotal_workstation::mysql
 #- pivotal_workstation::osx_updates
 #- pivotal_workstation::postgres
-- pivotal_workstation::rvm
 #- pivotal_workstation::screen_sharing_on
 - pivotal_workstation::skype
 - pivotal_workstation::textmate
@@ -33,6 +32,7 @@ recipes:
 - ccd_workstation::global_rvmrc
 - ccd_workstation::hub
 - ccd_workstation::bash_profile-gpp
+- ccd_workstation::rvm
 - ccd_workstation::screen_sharing_app
 - ccd_workstation::textmate_fullscreen
 - ccd_workstation::textmate_preferences
