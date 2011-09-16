@@ -13,7 +13,7 @@ if $? != 0
   end
 
   execute "intall java" do
-    command "installer -pkg /Volumes/Java\\ for\\ Mac\\ OS\\ X\\ 10.#{version}/JavaForMacOSX10.7.pkg -target /"
+    command "installer -pkg /Volumes/Java\\ for\\ Mac\\ OS\\ X\\ 10.#{version}/JavaForMacOSX10.#{version}.pkg -target /"
   end
 
   execute "unmount dmg" do
