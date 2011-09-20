@@ -1,5 +1,5 @@
 version = os_x_point_version
-`pkgutil --pkgs=com.apple.pkg.JavaForMacOSX10#{version}`
+`pkgutil --pkgs=com.apple.pkg.Java`
 if $? != 0
   case version
   when "6"
