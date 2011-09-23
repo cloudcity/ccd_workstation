@@ -7,7 +7,4 @@ execute "#{WS_HOME}/Library/Application\ Support/TextMate/Bundles/Ackmate.tmbund
   not_if { ::File.exists?("#{WS_HOME}/Library/Application\ Support/TextMate/Bundles/AckMate.tmbundle") }
 end
 
-execute "osascript -e 'tell app \"TextMate\" to reload bundles'" do
-  command "osascript -e 'tell app \"TextMate\" to reload bundles'"
-  user WS_USER
-end
+reload_textmate_bundles
