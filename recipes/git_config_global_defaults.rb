@@ -17,3 +17,8 @@ execute "set alias conflicts opens conflicted files in editor" do
   command "git config --global alias.conflicts '!git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR'"
   user WS_USER
 end
+
+execute "git config --global push.default current" do
+  command "git config --global push.default current"
+  user WS_USER
+end
